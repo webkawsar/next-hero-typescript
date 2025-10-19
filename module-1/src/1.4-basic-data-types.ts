@@ -19,7 +19,11 @@
 
 
 // implicit defined data
+//typescript nije theke jodi data type buje ney seta implicit
+
 // explicit defined data
+// ar jodi amora bole dei seta tahole explicit data type
+
 
 const fullName:string = 'Kawsar Ahmed';
 const age:number = 28;
@@ -34,6 +38,8 @@ let z;
 const friends:string[] = ['Samim', 'Imran'];
 
 // tuple
+// bises type of array
+// ekhane order amaintain korte hoy
 const info:[string, number] = ['Kawsar', 28];
 
 
