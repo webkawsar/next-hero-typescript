@@ -1,3 +1,0 @@
-
-// spread operator
-// rest operator

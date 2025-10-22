@@ -24,7 +24,7 @@ const person = {
 
 
 // arrow function
-const odd = [1, 9, 3, 7, 11];
+const odd: number[] = [1, 9, 3, 7, 11];
 const evenNumbers = odd.map((element: number):number => element * element);
 
 // callback function

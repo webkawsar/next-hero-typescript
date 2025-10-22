@@ -10,7 +10,7 @@ type Student = {
     isAdmin: boolean
 }
 
-const student1L:Student = {
+const student1:Student = {
     fName: 'Kawsar',
     lName: 'Ahmed',
     age: 29,
@@ -27,6 +27,9 @@ const student2:Student = {
     company: 'Biman Bahini',
     isAdmin: false
 }
+
+type IsAdmin = boolean;
+const hasAccess:IsAdmin = true;
 
 type Add = (num1:number, num2:number) => number
 
