@@ -1,9 +1,8 @@
 {
-  // 
-
 
   // type assertion
   // type assertion mane developer typescript er better type buje thake
+  // ami developer hisebe typescript er cheye better type bujte pari ba declare korte pari tahole setai type assertion
   let anything: any;
 
   // console.log(anything.)  // kuno kichu suggestion dey na
@@ -14,6 +13,9 @@
 
   anything = 420;
   // (anything as number).toFixed() // number type er sokol suggestion dibe
+
+  // tar mane ami developer jodi ekebare sure hoye jai je data type etai hobe sure etai type assertion
+
 
 
   const kgToGm = (value:string | number): string|number|undefined => {
@@ -49,7 +51,4 @@
   }
 
 
-
-
-  // 
 }
