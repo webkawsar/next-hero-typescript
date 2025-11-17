@@ -5,7 +5,7 @@
       id: number;
       name: string;
       email: string;
-    }>(student: T) => {
+    }> (student: T) => {
     const course = "Next Level Web Development";
     return {
       ...student,
