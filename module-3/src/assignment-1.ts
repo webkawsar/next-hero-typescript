@@ -224,10 +224,41 @@ logString(42);
 
 
 
+// Problem 8:
+// Design a TypeScript class Car that represents a basic car with properties for brand, model, and year. Implement a method displayInfo that displays information about the car.
+
+// Sample Input:
+// new Car("Toyota", "Corolla", 2020);
+
+// Sample Output: 
+// "Your car model is:  2020 Toyota Corolla"
+
+class Car {
+    constructor(public brand:string, public model:string, public year:number) {}
+    public displayInfo() {
+        console.log(`Your car model is: ${this.year} ${this.brand} ${this.model}`)
+    }
+}
+
+const car = new Car("Toyota", "Corolla", 2020);
+car.displayInfo();
 
 
 
 
 
+
+
+
+
+
+
+// Blog Writing (anyone):
+// Write an impactful blog posts covering the following topics:
+
+// The significance of union and intersection types in Typescript.
+// How to handle asynchronous operations using async/await over callback/promise TypeScript.
+// Why are Type Guards Necessary? Discuss Various Types of Type Guards and Their Use Cases.
+// Note:You will have to choose any one blog topic
 
 
